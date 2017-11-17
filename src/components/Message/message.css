@@ -1,0 +1,47 @@
+.Message-root {
+	background-color: #fff;
+	border: 1px  solid #ccc;
+	border-radius: 0.5em;
+	padding: 1em;
+}
+
+.Message-text {
+	font-size: 16pt;
+	font-weight: 200;
+}
+
+.Message-user {
+	display: flex;
+	align-items: center;
+}
+
+.Message-avatar {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+}
+
+.Message-displayName {
+	font-weigth: bold;
+	padding: 0.5em;
+}
+
+.Message-username {
+	color: #aaa;
+}
+
+.Message.date {
+	color: #aaa;
+	padding: 0.5em;
+	font-size: 8pt;
+}
+
+.Message-buttons {
+	display: flex;
+	justify-content: flex-start;
+	color: #aaa;
+
+	Message-icon {
+		margin-right: 3em;
+	}
+}
