@@ -1,7 +1,8 @@
 .Message-root {
 	background-color: #fff;
 	border: 1px  solid #ccc;
-	border-radius: 0.5em;
+	border-radius: 5px;
+	margin: 0.5em;
 	padding: 1em;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .Message-displayName {
-	font-weigth: bold;
+	font-weight: bold;
 	padding: 0.5em;
 }
 
@@ -30,7 +31,7 @@
 	color: #aaa;
 }
 
-.Message.date {
+.Message-date {
 	color: #aaa;
 	padding: 0.5em;
 	font-size: 8pt;
@@ -40,8 +41,8 @@
 	display: flex;
 	justify-content: flex-start;
 	color: #aaa;
+}	
 
-	Message-icon {
-		margin-right: 3em;
-	}
+.Message-icon {
+	margin-right: 3em;
 }
